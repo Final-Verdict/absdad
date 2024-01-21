@@ -112,7 +112,7 @@
         "path": "/",
         "type": "ws"
       },
-      "uuid": "71e6dde6-8ba9-4bed-8904-1f01c4fc803d",
+      "uuid": "f939d0ef-1f24-431b-b0c9-69c297b2e947",
       "type": "vless",
       "domain_strategy": "",
       "tag": "worker 2️⃣"
@@ -141,7 +141,7 @@
         "path": "/",
         "type": "ws"
       },
-      "uuid": "71e6dde6-8ba9-4bed-8904-1f01c4fc803d",
+      "uuid": "f939d0ef-1f24-431b-b0c9-69c297b2e947",
       "type": "vless",
       "domain_strategy": "",
       "tag": "worker 3️⃣"
@@ -200,7 +200,7 @@
         "path": "/",
         "type": "ws"
       },
-      "uuid": "71e6dde6-8ba9-4bed-8904-1f01c4fc803d",
+      "uuid": "f939d0ef-1f24-431b-b0c9-69c297b2e947",
       "type": "vless",
       "domain_strategy": "",
       "tag": "worker 5️⃣"
