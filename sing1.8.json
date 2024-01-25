@@ -112,7 +112,7 @@
     },
     {
       "packet_encoding": "",
-      "server": "[2606:4700:d0::a29f:c001]",
+      "server": "172.67.59.190",
       "server_port": 443,
       "tls": {
         "alpn": [
