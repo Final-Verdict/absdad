@@ -119,8 +119,8 @@
     },
     {
       "packet_encoding": "",
-      "server": "188.114.96.22",
-      "server_port": 1074,
+      "server": "104.24.36.94",
+      "server_port": 443,
       "tls": {
         "alpn": [
           "h3"
