@@ -1,4 +1,22 @@
-{
-{ "outbounds": [ { "type": "wireguard", "tag": "Warp", "warp": { "host": "auto"} },
-{"type":"wireguard","server":"engage.cloudflareclient.com","server_port":2408,"local_address":["172.16.0.2/32","2606:4700:110:83cd:3a87:1f11:652e:7dcd/128"],"private_key":"mD6UfB422UUIjoMbM4ux3sFSLEVMiNPRFKAYTPHlxE4=","peer_public_key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=","reserved":[163,197,116],"mtu":1280,"tag":"type free device 3076bcc7-ca3d-4135-8334-e8f13bc6575a token 00a1f71f-7e98-4e3f-a461-6bb35fb0b2d3","retour": "WARP"}
+{ 
+  "outbounds": [ 
+  { 
+    "type": "selector", 
+    "tag": "select", 
+    "warp": { "host": "auto"} },
+  {
+    "type":"wireguard",
+    "server":"engage.cloudflareclient.com",
+    "server_port":2408,
+    "local_address":[
+      "172.16.0.2/32",
+      "2606:4700:110:83cd:3a87:1f11:652e:7dcd/128"
+    ],
+    "private_key":"mD6UfB422UUIjoMbM4ux3sFSLEVMiNPRFKAYTPHlxE4=",
+    "peer_public_key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+    "reserved":[163,197,116],
+    "mtu":1280,
+    "tag":"type free device 3076bcc7-ca3d-4135-8334-e8f13bc6575a token 00a1f71f-7e98-4e3f-a461-6bb35fb0b2d3",
+    "retour": "WARP"
+  }
 ] }
