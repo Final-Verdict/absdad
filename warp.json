@@ -1,22 +1,23 @@
-{ 
-  "outbounds": [ 
-  { 
-    "type": "selector", 
-    "tag": "select", 
-    "warp": { "host": "auto"} },
-  {
-    "type":"wireguard",
-    "server":"engage.cloudflareclient.com",
-    "server_port":2408,
-    "local_address":[
-      "172.16.0.2/32",
-      "2606:4700:110:83cd:3a87:1f11:652e:7dcd/128"
+{
+    "vnext": [
+      {
+        "address": "88.151.194.252",
+        "port": 8443,
+        "users": [
+          {
+            "id": "115cb25a-154f-4899-8437-983c6b4b77c4",
+            "encryption": "none",
+            "flow": "xtls-rprx-direct",
+            "level": 0,
+            "security": "none"
+          }
+        ]
+      }
     ],
-    "private_key":"mD6UfB422UUIjoMbM4ux3sFSLEVMiNPRFKAYTPHlxE4=",
-    "peer_public_key":"bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-    "reserved":[163,197,116],
-    "mtu":1280,
-    "tag":"u0",
-    "retour": "WARP"
+    "outbounds": [
+      {
+        "protocol": "freedom",
+        "settings": {}
+      }
+    ]
   }
-] }
