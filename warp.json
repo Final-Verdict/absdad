@@ -19,7 +19,7 @@
         "protocol": "freedom",
         "settings": {},
         "tag": "outbound_0",
-        "type": "none"
+        "type": "tcp"
       }
     ]
 }
