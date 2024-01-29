@@ -17,7 +17,9 @@
     "outbounds": [
       {
         "protocol": "freedom",
-        "settings": {}
+        "settings": {},
+        "tag": "outbound_0",
+        "type": "none"
       }
     ]
-  }
+}
