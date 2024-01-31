@@ -240,7 +240,6 @@
     {
       "type": "wireguard",
       "tag": "Warp-Main",
-      "detour": "عمو وایرگارد2️⃣",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8d34:65ad:a0c4:a92:f790/128"
